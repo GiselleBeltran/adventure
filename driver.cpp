@@ -46,7 +46,8 @@ double skyDive(int people, int discountPrice)
     cout << endl << "Base Charge: $700 per person" << endl;
     cout << "a. Lodging at Wilderness Lodge: $65/day per person" << endl;
     cout << "b. Lodging at Luxury Inn: $120/day per person" << endl;
-    cout << "Select your chocie of lodge: ";
+    cout << "c. Neither, I will provide my own lodging" << endl;
+    cout << "Select your choice of lodge: ";
     cin >> choice;
     if (choice == 'a')
         price = ((700 - (700 * discountPrice)) * people) + (65 * people); 
