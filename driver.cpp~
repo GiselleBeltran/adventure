@@ -21,7 +21,7 @@ int main()
 
   return 0;
 }
-// Need to use independent variables in the int main(). Set int people = numberOfPeople() and double discountPrice = discount(int people). Make sure to execute functions within menu() instead of int main().
+// Need to use independent variables in the int main(). Set int people = numberOfPeople() and double discountPrice = discount(int people)
 int numberOfPeople()
 {
     int people;
